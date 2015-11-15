@@ -2,6 +2,8 @@
 # what features grub supports or not, but this was updated as of Oct 4:
 # https://github.com/zfsonlinux/pkg-zfs/wiki/HOWTO-install-EL7-(CentOS-RHEL)-to-a-Native-ZFS-Root-Filesystem#step-3-create-the-root-pool
 
+# I don't set ashift because these are native 4kn drives
+
 # We use names like sda here, but immediately export and then use serial-number
 # based ids
 # We use -d to disable all features by default to ensure GRUB will be able to
